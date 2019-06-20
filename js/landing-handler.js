@@ -1,4 +1,4 @@
-"use strict!";
+"use strict";
 
 var landing = document.getElementById("landingInfo");
 landing.addEventListener("submit", handler);
