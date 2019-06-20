@@ -265,8 +265,12 @@ p.stories {
 }
 
 img.carousel {
-    width: 50%;
-    height: 50%;
+    display: block;
+    margin: 0 auto;
+    width: 268.89px;
+    height: 452.64px;
+    border-radius: 12px;
+    box-shadow: #000000 0px 3px 6px;
 }
 
 div.carousel-bg
@@ -818,3 +822,39 @@ img.comic-beta {
     padding-bottom: 40px;
 
 }
+
+.bg-orange {
+    background-color: #F58400;
+    color: #FFFFFF;
+    width: 349.02px;
+    height: 437.74px;
+    border-radius: 6px;
+    box-shadow: #000000 0px 3px 6px;
+    padding-top: 50px;
+    position: relative;
+    top: -50px;
+    /* z-index: -10; */
+}
+
+h4.comic-title {
+    font-family: 'Montserrat-Bold';
+}
+
+h6.rating {
+    font-family: 'Gotham-bold';
+    color: #454545;
+}
+
+p.syn {
+    font-family: 'Gill Sans';
+}
+
+div.cover-container {
+    width: 310px;
+    display: inline-block;
+}
+
+/* div.cover-container img {
+    display: block;
+    margin: 0 auto;
+} */
