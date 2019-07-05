@@ -621,13 +621,13 @@ footer.about {
     padding: 0 0 40px 0;
 }
 
-div.create{
+div.create {
     background-color: #333333;
     /* color: white; */
     padding: 0 0 45px 0;
     margin: 149px 0 187.84px 287.84px;
-    width: 672.21px;
-    height: 605.16px;
+    width: 744.78px;
+    height: 450.44px;
 }
 
 /* div.create2 {
@@ -637,16 +637,15 @@ div.create{
     margin: 0 0 0 956.79px;
 } */
 
-body.create {
-    background-image: url("../img/Alluhwi-Comics-Cat-girl.jpg");
-    background-repeat: no-repeat;
-    background-size: 2099px;
+p.create {
+    font-size: 21px;
 }
-/* section.create-contain {
+
+section.create-contain {
     background-image: url("../img/Alluhwi-Comics-Cat-girl.jpg");
     background-repeat: no-repeat;
     background-size: 1920px;
-} */
+}
 
 section.contact {
     background-color: #383838;
