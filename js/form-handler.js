@@ -1,4 +1,4 @@
-"use strict!";
+"use strict";
 
 var creatorForm = document.getElementById("creator-form");
 creatorForm.addEventListener("submit", handler);

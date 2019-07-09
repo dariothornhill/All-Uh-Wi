@@ -44,11 +44,13 @@
 
 body {
     width: 1920px;
+    /* height: 2371px; */
     color: #383838;
 }
 
 section.home {
     background-image: url("../img/Alluhwi-Website-Background-1.png");
+    height: 956px;
 }
 
 section.about {
@@ -70,10 +72,8 @@ section.terms {
 }
 
 section.beta {
-    background-image: url("../img/Alluhwi-Website-Background-4.png");
-    color: #FFFFFF;
-    font-family: 'Montserrat-bold';
-    font-size: 55px;
+    background-color: #E5E5E5;
+    height: 1224.5px;
 }
 
 section.stories {
@@ -93,6 +93,9 @@ iframe.stories {
 }
 
 h1.beta {
+    color: #333333;
+    font-family: 'Montserrat-bold';
+    font-size: 55px;
     text-align: right;
     padding: 50px 150px 50px 0;
 }
@@ -134,15 +137,15 @@ a.home {
 
 button.navi {
     float: right;
-    background-color: #F58400;
-    color: rgba(255, 255, 255, 1);
+    background-color: #383838;
+    color: #FFFFFF;
     padding: 10px 20px 10px 20px;
     margin: 55px 55px 20px 35px;
     border: none;
     text-align: center;
     border-radius: 5px;
     font-size: 21px;
-    font-family: 'Gotham-bold';
+    font-family: 'Gill Sans';
     width: 260px;
     height: 66.73px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
@@ -217,13 +220,14 @@ p.about-last {
 }
 
 p.create {
-    font-family: 'Gotham Book';
-    font-size: 30px;
+    font-family: 'Gill sans';
+    font-size: 35px;
     padding: 0 0 0 56px;
     margin: 0 0 20px 0;
     word-wrap: normal;
-    width: 45.05%px;
+    width: 45.05%;
     line-height: 1.2;
+    color: #FFFFFF;
 }
 
 iframe.home {
@@ -277,7 +281,8 @@ div.carousel-bg
 
 img.beta {
     display: block;
-    width: 25%;
+    width: 186px;
+    height: 61px;
     margin: 0 auto;
 }
 
@@ -298,22 +303,26 @@ button.home-frame {
     text-decoration: none;
     color: white;
     background-color: #383838;
+    width: 220.42px;
+    height: 55.79px;
     border: none;
     text-align: center;
-    border-radius: 4px;
+    border-radius: 5px;
+    font-family: 'Gill Sans';
     font-size: 20px;
     display: block;
     padding: 20px;
     margin: 20px 0 10px 0;
+    box-shadow: #000000 0px 3px 6px;
 }
 
 section.mobile {
     background-color: #333333;
     color: white;
-    font-family: 'GillSans-semibold';
-    font-size: 30px;
+    /* font-family: 'GillSans-semibold'; */
+    /* font-size: 30px; */
     height: 125.04px;
-    text-align: center;
+    /* text-align: center; */
     padding: 0 0 62.50px 0;
 }
 
@@ -539,7 +548,7 @@ h1.private {
 
 h1.about {
     padding: 75px 0 35px 0;
-    color: #FC941A;
+    color: #F58400;
     font-family: 'Gotham-bold';
     font-size: 57px;
     margin: 0;
@@ -548,7 +557,7 @@ h1.about {
 h1.create {
     color: #FC941A;
     font-family: 'Gotham-bold';
-    font-size: 49px;
+    font-size: 35px;;
     padding: 0 0 0 56px;
     margin: 0 0 20px 0;
 }
@@ -576,11 +585,11 @@ fieldset.contact-us {
     margin: 0 0 30px 0;
 }
 
-input.create {
+/* input.create {
     margin: 0 0 0 56px;
     font-size: 1.5em;
     padding: 0 100px 0 0;
-}
+} */
 
 footer.foot {
     padding: 30px 0 20px 0;
@@ -612,15 +621,30 @@ footer.about {
     padding: 0 0 40px 0;
 }
 
-div.create{
+div.create {
     background-color: #333333;
-    color: white;
+    /* color: white; */
     padding: 0 0 45px 0;
-    margin: 0 0 0 45.05%;
+    margin: 149px 0 187.84px 287.84px;
+    width: 744.78px;
+    height: 450.44px;
+}
+
+/* div.create2 {
+    background-color: #FFFFFF;
+    width: 672.21px;
+    height: 605.16px;
+    margin: 0 0 0 956.79px;
+} */
+
+p.create {
+    font-size: 21px;
 }
 
 section.create-contain {
-    background-image: url("../img/Alluhwi\ Comics\ Cat-girl.jpg");
+    background-image: url("../img/Alluhwi-Comics-Cat-girl.jpg");
+    background-repeat: no-repeat;
+    background-size: 1920px;
 }
 
 section.contact {
@@ -634,7 +658,7 @@ section.contact {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-button.create {
+/* button.create {
     background-color: #F58400;
     color: white;
     padding: 10px 20px 10px 20px;
@@ -645,7 +669,7 @@ button.create {
     font-size: 21px;
     font-family: 'Gill Sans';
     display: block;
-}
+} */
 
 button.contact {
     background-color: #F58400;
@@ -765,96 +789,3 @@ span.foot {
     clear: both;
 }
 
-h1.comic-name {
-    font-family: 'Gotham-bold';
-    color: #FFFFFF;
-    font-size: 58px;
-    /* width: 187px;
-    height: 43px; */
-    text-align: center;
-    padding: 60px 0 20px 0;
-}
-
-h2.chapter {
-    font-family: 'GillSans-bold';
-    color: #FC941A;
-    text-align: center;
-    font-size: 37px;
-    padding-bottom: 65px;
-}
-
-img.comic-img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 1244.15px;
-    height: 1682.2px;
-    margin-bottom: 100px;
-}
-
-body.comic-body {
-    background-color: #383838;
-}
-
-h1.comic-beta {
-    font-family: 'Gotham-bold';
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 35px;
-    padding-bottom: 15px;
-}
-
-h1.comic-beta2 {
-    font-family: 'Gotham-bold';
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 35px;
-    padding-bottom: 30px;
-}
-
-img.comic-beta {
-    height: 100px;
-    width: 258px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin: auto;
-    padding-bottom: 40px;
-
-}
-
-.bg-orange {
-    background-color: #F58400;
-    color: #FFFFFF;
-    width: 349.02px;
-    height: 437.74px;
-    border-radius: 6px;
-    box-shadow: #000000 0px 3px 6px;
-    padding-top: 50px;
-    position: relative;
-    top: -50px;
-    /* z-index: -10; */
-}
-
-h4.comic-title {
-    font-family: 'Montserrat-Bold';
-}
-
-h6.rating {
-    font-family: 'Gotham-bold';
-    color: #454545;
-}
-
-p.syn {
-    font-family: 'Gill Sans';
-}
-
-div.cover-container {
-    width: 310px;
-    display: inline-block;
-}
-
-/* div.cover-container img {
-    display: block;
-    margin: 0 auto;
-} */
