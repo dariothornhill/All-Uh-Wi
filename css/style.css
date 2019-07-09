@@ -808,7 +808,13 @@ header.log-in {
     align-items: center;
     flex-direction: row;
     padding-right: 140px;
-    font-family: 
+    font-family: 'Gotham-bold';
+    font-size: 19px;
+}
+
+.log-in a button {
+    background-color: #F58400;
+    border-radius: 5px;
 }
 
 @media screen and (min-width: 1920px) {
