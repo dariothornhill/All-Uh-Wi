@@ -1,0 +1,75 @@
+/* Fonts */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('../fonts/Gill\ Sans.otf');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url('../fonts/GothamBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GothamBook.ttf');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GillSans-bold';
+  src: url('../fonts/Gill\ Sans\ Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* Substitute for Gill-sans semi-bold */
+  font-family: 'Lato-bold'; 
+  src: url('../fonts/Lato-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Index Styling */
+
+.creator {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333333;
+  height: 78px;
+  padding-right: 140px;
+}
+
+.creator span {
+  font-family: 'Gotham-bold';
+  font-size: 19px;
+  color: #FFFFFF;
+  padding-right: 30px;
+}
+
+.creator a button {
+  background-color: #F58400;
+  border: none;
+  border-radius: 5px;
+  width: 169px;
+  height: 50.49px;
+  box-shadow: #000000 0px 3px 6px;
+  color: #FFFFFF;
+  font-family: 'Gotham-bold';
+  font-size: 20px;
+  text-transform: uppercase;
+}
