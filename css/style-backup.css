@@ -816,7 +816,7 @@ header.log-in {
     background-color: #F58400;
     border-radius: 5px;
 }
-
+/* ------------------------------------------------------------------ */
 @media screen and (min-width: 1920px) {
     body {
         width: 1920px;
