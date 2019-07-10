@@ -45,6 +45,11 @@
 
 /* Index Styling */
 
+body {
+  font-size: 25px;
+}
+
+/* Log In/Out Styles */
 .creator {
   display: flex;
   justify-content: flex-end;
@@ -72,4 +77,29 @@
   font-family: 'Gotham-bold';
   font-size: 20px;
   text-transform: uppercase;
+}
+/* Nav Bar */
+
+.main-header nav {
+  background-color: #F7F7F7;
+}
+.main-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-header nav ul li {
+  margin-left: 125px;
+}
+.logo {
+  width: 155px;
+}
+
+.main-header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Gotham-bold';
+  color: #383838;
+  font-size: 1.05rem;
 }
