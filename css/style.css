@@ -153,12 +153,19 @@ body {
 
 /* Download */
 .beta {
+  position: relative;
   background-color: #B62700;
+  height: 683px;
 }
 
 .beta div {
-  display: flex;
-  flex-direction: column;
+  
+  /* display: block; */
+  /* text-align: center; */
+  
+  /* content:""; */
+  /* width: 100%; */
+  
 }
 
 .beta h1{
@@ -166,14 +173,23 @@ body {
   color: #FFFFFF;
   font-family: "Montserrat-bold";
   font-size: 55px;
+  top: 60px;
+  left: 310px;
+  position: absolute;
 }
 
 .beta img.google-play {
+  top: 140px;
+  left: 510px;
+  position: absolute;
   width: 371px;
 }
 
 .beta img.smart-app {
-  width: 50%;
+  top: -110px;
+  right: -90px;
+  position: absolute;
+  width: 70%;
 }
 
 /* Footer */
@@ -182,11 +198,20 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: space-around;
   background-color: #292929;
 }
 
+footer div:first-child {
+  margin-top: 43.53px;
+}
+
+footer div {
+  margin-bottom: 43.53px;
+  padding: 0;
+}
+
 footer img {
+  margin-right: 37.81px;
   width: 37.31px;
 }
 
