@@ -129,6 +129,7 @@ body {
   text-transform: uppercase;
   font-size: 54px;
   font-family: "Montserrat-bold";
+  /* margin-bottom: 26px; */
 }
 
 .home-container p {
@@ -148,4 +149,56 @@ body {
   font-size: 20px;
   color: #FFFFFF;
   text-transform: uppercase;
+}
+
+/* Download */
+.beta {
+  background-color: #B62700;
+}
+
+.beta div {
+  display: flex;
+  flex-direction: column;
+}
+
+.beta h1{
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-family: "Montserrat-bold";
+  font-size: 55px;
+}
+
+.beta img.google-play {
+  width: 371px;
+}
+
+.beta img.smart-app {
+  width: 50%;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-around;
+  background-color: #292929;
+}
+
+footer img {
+  width: 37.31px;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Gotham-bold";
+  font-size: 25px;
+  color: #FFFFFF
+}
+
+footer p {
+  font-family: "Gill Sans";
+  font-size: 24px;
+  color: #F58400;
 }
