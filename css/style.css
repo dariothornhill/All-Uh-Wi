@@ -1,44 +1,43 @@
 /* Fonts */
 @font-face {
-  font-family: 'Gill Sans';
-  src: url('../fonts/Gill\ Sans.otf');
-  font-weight: normal;
-  font-style: normal;
-} 
-
-@font-face {
-  font-family: 'Gotham-bold';
-  src: url('../fonts/GothamBold.ttf');
-  font-weight: normal;
-  font-style: normal;
-} 
-
-
-@font-face {
-  font-family: 'Gotham Book';
-  src: url('../fonts/GothamBook.ttf');
-  font-weight: normal;
-  font-style: normal;
-} 
-
-@font-face {
-  font-family: 'Montserrat-bold';
-  src: url('../fonts/Montserrat-Bold.ttf');
+  font-family: "Gill Sans";
+  src: url("../fonts/Gill\ Sans.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'GillSans-bold';
-  src: url('../fonts/Gill\ Sans\ Bold.otf');
+  font-family: "Gotham-bold";
+  src: url("../fonts/GothamBold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../fonts/GothamBook.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("../fonts/Montserrat-Bold.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GillSans-bold";
+  src: url("../fonts/Gill\ Sans\ Bold.otf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   /* Substitute for Gill-sans semi-bold */
-  font-family: 'Lato-bold'; 
-  src: url('../fonts/Lato-Bold.ttf');
+  font-family: "Lato-bold";
+  src: url("../fonts/Lato-Bold.ttf");
   font-weight: normal;
   font-style: normal;
 }
@@ -60,28 +59,28 @@ body {
 }
 
 .creator span {
-  font-family: 'Gotham-bold';
+  font-family: "Gotham-bold";
   font-size: 19px;
-  color: #FFFFFF;
+  color: #ffffff;
   padding-right: 30px;
 }
 
 .creator a button {
-  background-color: #F58400;
+  background-color: #f58400;
   border: none;
   border-radius: 5px;
   width: 169px;
   height: 50.49px;
   box-shadow: #000000 0px 3px 6px;
-  color: #FFFFFF;
-  font-family: 'Gotham-bold';
+  color: #ffffff;
+  font-family: "Gotham-bold";
   font-size: 20px;
   text-transform: uppercase;
 }
 /* Nav Bar */
 
 .main-header nav {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 .main-header nav ul {
   display: flex;
@@ -92,6 +91,7 @@ body {
 .main-header nav ul li {
   margin-left: 125px;
 }
+
 .logo {
   width: 155px;
 }
@@ -99,7 +99,53 @@ body {
 .main-header nav a {
   text-decoration: none;
   text-transform: uppercase;
-  font-family: 'Gotham-bold';
+  font-family: "Gotham-bold";
   color: #383838;
   font-size: 1.05rem;
+}
+
+/* Alluhwi */
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #171717;
+}
+
+.home-container div {
+    width: 745px;
+    margin: 100px 50px 130px 50px;
+    /* justify-content: space-around; */
+}
+
+.home-container iframe {
+  width: 745.76px;
+  height: 408.25px;
+  box-shadow: #000000 0px 3px 6px;
+}
+.home-container h1 {
+  color: #F58400;
+  text-transform: uppercase;
+  font-size: 54px;
+  font-family: "Montserrat-bold";
+}
+
+.home-container p {
+  color: #FFFFFF;
+  font-family: "Gill Sans";
+  font-size: 25px;
+}
+
+.home-container a button {
+  width: 279.42px;
+  height: 74.79px;
+  background-color: #F58400;
+  border-radius: 5px;
+  border: none;
+  box-shadow: #000000 0px 3px 6px;
+  font-family: "Gotham-bold";
+  font-size: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
