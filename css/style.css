@@ -127,15 +127,17 @@ body {
 .home-container h1 {
   color: #F58400;
   text-transform: uppercase;
-  font-size: 54px;
+  font-size: 46px;
   font-family: "Montserrat-bold";
-  /* margin-bottom: 26px; */
+  margin-bottom: 26px;
 }
 
 .home-container p {
   color: #FFFFFF;
   font-family: "Gill Sans";
-  font-size: 25px;
+  font-size: 23.5px;
+  margin-bottom: 27px;
+  line-height: 40px;
 }
 
 .home-container a button {
@@ -189,7 +191,9 @@ body {
   top: -110px;
   right: -90px;
   position: absolute;
+  display: block;
   width: 70%;
+
 }
 
 /* Footer */
