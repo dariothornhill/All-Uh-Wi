@@ -299,12 +299,14 @@ body {
   color: #FFFFFF;
 }
 
-.contact div {
+.contact div#contact-box {
   background-color: #383838;
   border-radius: 10px;
   box-shadow: #000000 0px 3px 6px;
   width: 1325px;
   height: 711px;
+  display: flex;
+  flex-direction: row;
 }
 
 /* Form styles */
@@ -329,4 +331,13 @@ body {
   background-color: #ffffff;
   box-shadow: #000000 0px 3px 6px;
   border-radius: 5px;
+}
+
+.contact div.text {
+ display: flex;
+ flex-direction: column;
+}
+
+.contact div.form {
+  display: flex;
 }
