@@ -245,23 +245,28 @@ body {
   font-size: 21px;
   color: #FFFFFF;
 }
+
+/* About paragraphs */
 .about {
-  background-image: url(../img/Alluhwi-Website-Background-3.png);
+  background-color:#333333;
+  height: 1135px;
 }
 
 .about div h1 {
   text-transform: uppercase;
   color: #FC941A;
   font-size: 57px;
-  font-family: "Gotham-bold"
+  font-family: "Gotham-bold";
+  padding: 60px 0 40px 0;
+
 }
 
 .about p {
   font-family: "Gill Sans";
   font-size: 26px;
   color: #FFFFFF;
-  line-height: 30px;
-  margin-bottom: 30px;
+  line-height: 38px;
+  margin-bottom: 40px;
   text-align: justify;
 }
 
@@ -269,4 +274,59 @@ body {
   margin: 0 815px 0 140px;
   width: 965px;
   height: 826px;
+}
+
+/* CONTACT PAGE -----------------------------------------*/
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 896.73px;
+}
+
+.contact h1 {
+  font-family: "Gotham-bold";
+  font-size: 67px;
+  text-transform: uppercase;
+  color: #F58400;
+}
+
+.contact p {
+  font-family: "Gill Sans";
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+.contact div {
+  background-color: #383838;
+  border-radius: 10px;
+  box-shadow: #000000 0px 3px 6px;
+  width: 1325px;
+  height: 711px;
+}
+
+/* Form styles */
+.contact label {
+  font-family: "Gotham-bold";
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact input {
+  width: 483.88px;
+  height: 40.57px;
+  background-color: #FFFFFF;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
+}
+
+.contact textarea {
+  width: 483.88px;
+  height: 155.58px;
+  background-color: #ffffff;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
 }
