@@ -42,6 +42,69 @@
   font-style: normal;
 }
 
+/* Nav Bar-----------------------------------------*/
+
+.main-header nav {
+  background-color: #f7f7f7;
+}
+.main-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main-header nav ul li {
+  margin-left: 125px;
+}
+
+.logo {
+  width: 155px;
+}
+
+.main-header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gotham-bold";
+  color: #383838;
+  font-size: 1.05rem;
+}
+
+/* Footer----------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #292929;
+}
+
+footer div:first-child {
+  margin-top: 43.53px;
+}
+
+footer div {
+  margin-bottom: 43.53px;
+  padding: 0;
+}
+
+footer img {
+  margin-right: 37.81px;
+  width: 37.31px;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Gotham-bold";
+  font-size: 25px;
+  color: #FFFFFF
+}
+
+footer p {
+  font-family: "Gill Sans";
+  font-size: 24px;
+  color: #F58400;
+}
+/* ---------------------------------------------- */
 /* Index Styling */
 
 body {
@@ -76,32 +139,6 @@ body {
   font-family: "Gotham-bold";
   font-size: 20px;
   text-transform: uppercase;
-}
-/* Nav Bar */
-
-.main-header nav {
-  background-color: #f7f7f7;
-}
-.main-header nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.main-header nav ul li {
-  margin-left: 125px;
-}
-
-.logo {
-  width: 155px;
-}
-
-.main-header nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Gotham-bold";
-  color: #383838;
-  font-size: 1.05rem;
 }
 
 /* Alluhwi */
@@ -186,39 +223,50 @@ body {
   width: 70%;
 
 }
+/* ABOUT US ------------------------------ */
 
-/* Footer */
-
-footer {
+.main-header nav span {
+  margin-top: 20px;
+  margin-left: 600px;
+}
+.main-header nav {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #292929;
+  justify-content: flex-start;
 }
 
-footer div:first-child {
-  margin-top: 43.53px;
-}
-
-footer div {
-  margin-bottom: 43.53px;
-  padding: 0;
-}
-
-footer img {
-  margin-right: 37.81px;
-  width: 37.31px;
-}
-
-footer a {
-  text-decoration: none;
+.main-header nav a button {
+  background-color: #F58400;
+  box-shadow: #000000 0px 3px 6px;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  height: 66.73px;
   font-family: "Gotham-bold";
-  font-size: 25px;
-  color: #FFFFFF
+  font-size: 21px;
+  color: #FFFFFF;
+}
+.about {
+  background-image: url(../img/Alluhwi-Website-Background-3.png);
 }
 
-footer p {
+.about div h1 {
+  text-transform: uppercase;
+  color: #FC941A;
+  font-size: 57px;
+  font-family: "Gotham-bold"
+}
+
+.about p {
   font-family: "Gill Sans";
-  font-size: 24px;
-  color: #F58400;
+  font-size: 26px;
+  color: #FFFFFF;
+  line-height: 30px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
+
+.about div {
+  margin: 0 815px 0 140px;
+  width: 965px;
+  height: 826px;
 }
