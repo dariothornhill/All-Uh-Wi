@@ -44,16 +44,16 @@
 
 /* Nav Bar-----------------------------------------*/
 
-.main-header nav {
+#main-header nav {
   background-color: #f7f7f7;
 }
-.main-header nav ul {
+#main-header nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.main-header nav ul li {
+#main-header nav ul li {
   margin-left: 125px;
 }
 
@@ -61,7 +61,7 @@
   width: 155px;
 }
 
-.main-header nav a {
+#main-header nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Gotham-bold";
@@ -225,16 +225,16 @@ body {
 }
 /* ABOUT US ------------------------------ */
 
-.main-header nav span {
+#main-header nav span {
   margin-top: 20px;
   margin-left: 600px;
 }
-.main-header nav {
+#main-header nav {
   display: flex;
   justify-content: flex-start;
 }
 
-.main-header nav a button {
+#main-header nav a button {
   background-color: #F58400;
   box-shadow: #000000 0px 3px 6px;
   border: none;
