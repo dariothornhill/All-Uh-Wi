@@ -247,12 +247,12 @@ body {
 }
 
 /* About paragraphs */
-.about {
+#about {
   background-color:#333333;
   height: 1135px;
 }
 
-.about div h1 {
+#about div h1 {
   text-transform: uppercase;
   color: #FC941A;
   font-size: 57px;
@@ -261,7 +261,7 @@ body {
 
 }
 
-.about p {
+#about p {
   font-family: "Gill Sans";
   font-size: 26px;
   color: #FFFFFF;
@@ -270,7 +270,7 @@ body {
   text-align: justify;
 }
 
-.about div {
+#about div {
   margin: 0 815px 0 140px;
   width: 965px;
   height: 826px;
@@ -278,7 +278,7 @@ body {
 
 /* CONTACT PAGE -----------------------------------------*/
 
-.contact {
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -286,20 +286,20 @@ body {
   height: 896.73px;
 }
 
-.contact h1 {
+#contact h1 {
   font-family: "Gotham-bold";
   font-size: 67px;
   text-transform: uppercase;
   color: #F58400;
 }
 
-.contact p {
+#contact p {
   font-family: "Gill Sans";
   font-size: 25px;
   color: #FFFFFF;
 }
 
-.contact div#contact-box {
+#contact .contact-wrapper {
   background-color: #383838;
   border-radius: 10px;
   box-shadow: #000000 0px 3px 6px;
@@ -310,14 +310,14 @@ body {
 }
 
 /* Form styles */
-.contact label {
+#contact label {
   font-family: "Gotham-bold";
   font-size: 19px;
   text-transform: uppercase;
   color: #FFFFFF;
 }
 
-.contact input {
+#contact input {
   width: 483.88px;
   height: 40.57px;
   background-color: #FFFFFF;
@@ -325,7 +325,7 @@ body {
   border-radius: 5px;
 }
 
-.contact textarea {
+#contact textarea {
   width: 483.88px;
   height: 155.58px;
   background-color: #ffffff;
@@ -333,11 +333,46 @@ body {
   border-radius: 5px;
 }
 
-.contact div.text {
- display: flex;
- flex-direction: column;
+/* PRIVACY---------------------------------------------- */
+
+#privacy {
+  background-color: #FFFFFF;
+  /* height: 2825.83px; */
 }
 
-.contact div.form {
+#privacy div p.no-margin {
+  padding-bottom: 0px;
+}
+ 
+#privacy div {
+  width: 1107px;
+  height: 2455px;
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 140px;
+}
+
+#privacy h1 {
+  font-family: "Gotham-bold";
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #383838;
+}
+
+#privacy h3 {
+  font-family: "Gotham-bold";
+  color: #383838;
+  font-size: 27px;
+}
+
+#privacy p {
+  font-size: 18px;
+  font-family: "Gill Sans";
+  color: #383838;
+}
+#privacy ul li a, #privacy ul li{
+  font-family: "Gill Sans";
+  color: #383838;
+  font-size: 18px;
 }
