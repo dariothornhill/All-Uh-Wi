@@ -259,7 +259,7 @@ body {
 /* About Paragraphs */
 #about {
   background-color: #333333;
-  height: 1135px;
+  height: 1185px;
 }
 
 #about div h1 {
@@ -334,12 +334,31 @@ body {
   border-radius: 5px;
 }
 
+input::placeholder, textarea::placeholder {
+  font-family: "Gill Sans";
+  color: #CCCCCC;
+  font-size: 19px;
+}
+
 #contact textarea {
   width: 483.88px;
   height: 155.58px;
   background-color: #ffffff;
   box-shadow: #000000 0px 3px 6px;
   border-radius: 5px;
+}
+
+#contact [type=submit] {
+  border: none;
+  border-radius: 5px;
+  background-color: #F58400;
+  box-shadow: #000000 0px 3px 6px;
+  width: 180.99px;
+  height: 41.92px;
+  font-family: "Gotham-bold";
+  font-size: 17px;
+  color: #FFFFFF;
+  text-transform: uppercase;
 }
 
 /* PRIVACY---------------------------------------------- */
