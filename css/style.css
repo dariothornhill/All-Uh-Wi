@@ -42,6 +42,69 @@
   font-style: normal;
 }
 
+/* Nav Bar-----------------------------------------*/
+
+#main-header nav {
+  background-color: #f7f7f7;
+}
+#main-header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#main-header nav ul li {
+  margin-left: 125px;
+}
+
+.logo {
+  width: 155px;
+}
+
+#main-header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gotham-bold";
+  color: #383838;
+  font-size: 1.05rem;
+}
+
+/* Footer----------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #292929;
+}
+
+footer div:first-child {
+  margin-top: 43.53px;
+}
+
+footer div {
+  margin-bottom: 43.53px;
+  padding: 0;
+}
+
+footer img {
+  margin-right: 37.81px;
+  width: 37.31px;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: "Gotham-bold";
+  font-size: 25px;
+  color: #FFFFFF
+}
+
+footer p {
+  font-family: "Gill Sans";
+  font-size: 24px;
+  color: #F58400;
+}
+/* ---------------------------------------------- */
 /* Index Styling */
 
 body {
@@ -76,32 +139,6 @@ body {
   font-family: "Gotham-bold";
   font-size: 20px;
   text-transform: uppercase;
-}
-/* Nav Bar */
-
-.main-header nav {
-  background-color: #f7f7f7;
-}
-.main-header nav ul {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.main-header nav ul li {
-  margin-left: 125px;
-}
-
-.logo {
-  width: 155px;
-}
-
-.main-header nav a {
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: "Gotham-bold";
-  color: #383838;
-  font-size: 1.05rem;
 }
 
 /* Alluhwi */
@@ -186,39 +223,156 @@ body {
   width: 70%;
 
 }
+/* ABOUT US ------------------------------ */
 
-/* Footer */
+#main-header nav span {
+  margin-top: 20px;
+  margin-left: 600px;
+}
+#main-header nav {
+  display: flex;
+  justify-content: flex-start;
+}
 
-footer {
+#main-header nav a button {
+  background-color: #F58400;
+  box-shadow: #000000 0px 3px 6px;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  height: 66.73px;
+  font-family: "Gotham-bold";
+  font-size: 21px;
+  color: #FFFFFF;
+}
+
+/* About paragraphs */
+#about {
+  background-color:#333333;
+  height: 1135px;
+}
+
+#about div h1 {
+  text-transform: uppercase;
+  color: #FC941A;
+  font-size: 57px;
+  font-family: "Gotham-bold";
+  padding: 60px 0 40px 0;
+
+}
+
+#about p {
+  font-family: "Gill Sans";
+  font-size: 26px;
+  color: #FFFFFF;
+  line-height: 38px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+#about div {
+  margin: 0 815px 0 140px;
+  width: 965px;
+  height: 826px;
+}
+
+/* CONTACT PAGE -----------------------------------------*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 896.73px;
+}
+
+#contact h1 {
+  font-family: "Gotham-bold";
+  font-size: 67px;
+  text-transform: uppercase;
+  color: #F58400;
+}
+
+#contact p {
+  font-family: "Gill Sans";
+  font-size: 25px;
+  color: #FFFFFF;
+}
+
+#contact .contact-wrapper {
+  background-color: #383838;
+  border-radius: 10px;
+  box-shadow: #000000 0px 3px 6px;
+  width: 1325px;
+  height: 711px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Form styles */
+#contact label {
+  font-family: "Gotham-bold";
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+#contact input {
+  width: 483.88px;
+  height: 40.57px;
+  background-color: #FFFFFF;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
+}
+
+#contact textarea {
+  width: 483.88px;
+  height: 155.58px;
+  background-color: #ffffff;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
+}
+
+/* PRIVACY---------------------------------------------- */
+
+#privacy {
+  background-color: #FFFFFF;
+  /* height: 2825.83px; */
+}
+
+#privacy div p.no-margin {
+  padding-bottom: 0px;
+}
+ 
+#privacy div {
+  width: 1107px;
+  height: 2455px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background-color: #292929;
+  justify-content: space-evenly;
+  margin-left: 140px;
 }
 
-footer div:first-child {
-  margin-top: 43.53px;
-}
-
-footer div {
-  margin-bottom: 43.53px;
-  padding: 0;
-}
-
-footer img {
-  margin-right: 37.81px;
-  width: 37.31px;
-}
-
-footer a {
-  text-decoration: none;
+#privacy h1 {
   font-family: "Gotham-bold";
-  font-size: 25px;
-  color: #FFFFFF
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #383838;
 }
 
-footer p {
+#privacy h3 {
+  font-family: "Gotham-bold";
+  color: #383838;
+  font-size: 27px;
+}
+
+#privacy p {
+  font-size: 18px;
   font-family: "Gill Sans";
-  font-size: 24px;
-  color: #F58400;
+  color: #383838;
+}
+#privacy ul li a, #privacy ul li{
+  font-family: "Gill Sans";
+  color: #383838;
+  font-size: 18px;
 }
