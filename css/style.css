@@ -267,6 +267,7 @@ body {
   height: 1135px;
   background-repeat: no-repeat;
   background-size: 2016px 1137px;
+  background-position: center;
 }
 
 #about div h1 {
@@ -274,7 +275,7 @@ body {
   color: #fc941a;
   font-size: 57px;
   font-family: "Gotham-bold";
-  padding: 60px 0 40px 0;
+  padding: 40px 0 40px 0;
 }
 
 #about p {
@@ -287,7 +288,7 @@ body {
 }
 
 #about div {
-  margin: 0 815px 0 140px;
+  margin: 0px 815px 0 140px;
   width: 965px;
   height: 826px;
 }
@@ -382,6 +383,7 @@ input::placeholder, textarea::placeholder {
   flex-direction: column;
   /* justify-content: space-between; */
   margin-left: 140px;
+  margin-top: 126.73px;
 }
 
 #privacy h1, #terms h1 {
@@ -389,7 +391,7 @@ input::placeholder, textarea::placeholder {
   font-size: 57px;
   text-transform: uppercase;
   color: #383838;
-  margin: 60px 0 50px 0;
+  margin: 0px 0 50px 0;
 }
 
 #privacy h3, #terms h3, #terms span {
