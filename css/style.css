@@ -42,18 +42,20 @@
   font-style: normal;
 }
 
-/* Nav Bar-----------------------------------------*/
+/* NAV BAR-----------------------------------------*/
 
 #main-header nav {
   background-color: #f7f7f7;
 }
-#main-header nav ul {
+#main-header nav ul,
+#main-header-alt nav ul {
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-#main-header nav ul li {
+#main-header nav ul li,
+#main-header-alt nav ul li {
   margin-left: 125px;
 }
 
@@ -61,13 +63,19 @@
   width: 155px;
 }
 
-#main-header nav a {
+#main-header nav a,
+#main-header-alt nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: "Gotham-bold";
   color: #383838;
   font-size: 1.05rem;
 }
+/* ALT NAV */
+
+/* #main-header-alt nav {
+  
+} */
 
 /* Footer----------------------------------------- */
 
@@ -96,13 +104,13 @@ footer a {
   text-decoration: none;
   font-family: "Gotham-bold";
   font-size: 25px;
-  color: #FFFFFF
+  color: #ffffff;
 }
 
 footer p {
   font-family: "Gill Sans";
   font-size: 24px;
-  color: #F58400;
+  color: #f58400;
 }
 /* ---------------------------------------------- */
 /* Index Styling */
@@ -152,9 +160,9 @@ body {
 }
 
 .home-container div {
-    width: 745px;
-    margin: 100px 50px 130px 50px;
-    /* justify-content: space-around; */
+  width: 745px;
+  margin: 100px 50px 130px 50px;
+  /* justify-content: space-around; */
 }
 
 .home-container iframe {
@@ -163,7 +171,7 @@ body {
   box-shadow: #000000 0px 3px 6px;
 }
 .home-container h1 {
-  color: #F58400;
+  color: #f58400;
   text-transform: uppercase;
   font-size: 46px;
   font-family: "Montserrat-bold";
@@ -171,7 +179,7 @@ body {
 }
 
 .home-container p {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Gill Sans";
   font-size: 23.5px;
   margin-bottom: 27px;
@@ -181,26 +189,26 @@ body {
 .home-container a button {
   width: 279.42px;
   height: 74.79px;
-  background-color: #F58400;
+  background-color: #f58400;
   border-radius: 5px;
   border: none;
   box-shadow: #000000 0px 3px 6px;
   font-family: "Gotham-bold";
   font-size: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
 /* Download */
 .beta {
   position: relative;
-  background-color: #B62700;
+  background-color: #b62700;
   height: 683px;
 }
 
-.beta h1{
+.beta h1 {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Montserrat-bold";
   font-size: 55px;
   top: 60px;
@@ -221,21 +229,23 @@ body {
   position: absolute;
   display: block;
   width: 70%;
-
 }
-/* ABOUT US ------------------------------ */
+/* ABOUT US -------------------------------------------- */
 
-#main-header nav span {
+#main-header-alt nav span {
   margin-top: 20px;
   margin-left: 600px;
 }
-#main-header nav {
+
+#main-header-alt nav {
   display: flex;
   justify-content: flex-start;
+  background-color: #ffffff;
+  /* box-shadow: #000000 0px 3px 6px; */
 }
 
-#main-header nav a button {
-  background-color: #F58400;
+#main-header-alt nav a button {
+  background-color: #f58400;
   box-shadow: #000000 0px 3px 6px;
   border: none;
   border-radius: 5px;
@@ -243,28 +253,27 @@ body {
   height: 66.73px;
   font-family: "Gotham-bold";
   font-size: 21px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-/* About paragraphs */
+/* About Paragraphs */
 #about {
-  background-color:#333333;
+  background-color: #333333;
   height: 1135px;
 }
 
 #about div h1 {
   text-transform: uppercase;
-  color: #FC941A;
+  color: #fc941a;
   font-size: 57px;
   font-family: "Gotham-bold";
   padding: 60px 0 40px 0;
-
 }
 
 #about p {
   font-family: "Gill Sans";
   font-size: 26px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 38px;
   margin-bottom: 40px;
   text-align: justify;
@@ -282,7 +291,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   height: 896.73px;
 }
 
@@ -290,13 +299,13 @@ body {
   font-family: "Gotham-bold";
   font-size: 67px;
   text-transform: uppercase;
-  color: #F58400;
+  color: #f58400;
 }
 
 #contact p {
   font-family: "Gill Sans";
   font-size: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #contact .contact-wrapper {
@@ -314,13 +323,13 @@ body {
   font-family: "Gotham-bold";
   font-size: 19px;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #contact input {
   width: 483.88px;
   height: 40.57px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   box-shadow: #000000 0px 3px 6px;
   border-radius: 5px;
 }
@@ -336,20 +345,16 @@ body {
 /* PRIVACY---------------------------------------------- */
 
 #privacy {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   /* height: 2825.83px; */
 }
 
-#privacy div p.no-margin {
-  padding-bottom: 0px;
-}
- 
 #privacy div {
   width: 1107px;
   height: 2455px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-between; */
   margin-left: 140px;
 }
 
@@ -358,21 +363,36 @@ body {
   font-size: 57px;
   text-transform: uppercase;
   color: #383838;
+  margin: 60px 0 50px 0;
 }
 
 #privacy h3 {
   font-family: "Gotham-bold";
   color: #383838;
   font-size: 27px;
+  margin: 10px 0 30px 0;
 }
 
 #privacy p {
   font-size: 18px;
   font-family: "Gill Sans";
   color: #383838;
+  margin-bottom: 35px;
+  line-height: 25px;
 }
-#privacy ul li a, #privacy ul li{
+
+#privacy p:nth-child(8), #privacy p:nth-child(9), #privacy p:nth-child(17) {
+  margin-bottom: 0px;
+}
+
+#privacy ul li a,
+#privacy ul li {
   font-family: "Gill Sans";
   color: #383838;
   font-size: 18px;
+  text-indent: 30px;
+}
+
+#privacy ul li:last-of-type {
+  margin-bottom: 40px;
 }
