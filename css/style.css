@@ -107,6 +107,11 @@ footer a {
   color: #ffffff;
 }
 
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 footer p {
   font-family: "Gill Sans";
   font-size: 24px;
@@ -241,7 +246,7 @@ body {
   display: flex;
   justify-content: flex-start;
   background-color: #ffffff;
-  /* box-shadow: #000000 0px 3px 6px; */
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
 }
 
 #main-header-alt nav a button {
@@ -258,8 +263,10 @@ body {
 
 /* About Paragraphs */
 #about {
-  background-color: #333333;
-  height: 1185px;
+  background-image: url(../img/Alluhwi-Website-Background-3-flipped.png);
+  height: 1135px;
+  background-repeat: no-repeat;
+  background-size: 2016px 1137px;
 }
 
 #about div h1 {
@@ -377,7 +384,7 @@ input::placeholder, textarea::placeholder {
   margin-left: 140px;
 }
 
-#privacy h1 {
+#privacy h1, #terms h1 {
   font-family: "Gotham-bold";
   font-size: 57px;
   text-transform: uppercase;
@@ -385,14 +392,14 @@ input::placeholder, textarea::placeholder {
   margin: 60px 0 50px 0;
 }
 
-#privacy h3 {
+#privacy h3, #terms h3, #terms span {
   font-family: "Gotham-bold";
   color: #383838;
   font-size: 27px;
   margin: 10px 0 30px 0;
 }
 
-#privacy p {
+#privacy p, #terms p {
   font-size: 18px;
   font-family: "Gill Sans";
   color: #383838;
@@ -414,4 +421,22 @@ input::placeholder, textarea::placeholder {
 
 #privacy ul li:last-of-type {
   margin-bottom: 40px;
+}
+
+/* TERMS ----------------------------------------------------------- */
+
+#terms {
+  background-color: #FFFFFF;
+  height: 1421px;
+  margin-left: 140px;
+  margin-top: 113.76px;
+}
+
+#terms div {
+  width: 1107px;
+  height: 1256px;
+}
+
+#terms p:last-of-type {
+  margin-top: 30px;
 }
