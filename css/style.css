@@ -58,11 +58,12 @@
 
 #main-header nav ul li,
 #main-header-alt nav ul li {
-  margin-left: 7rem;
+  margin-left: 4rem;
 }
 
 .logo {
-  width: 110.19px;
+  /* width: 110.19px; */
+  height: 111.06px;
 }
 
 #main-header nav a,
@@ -80,7 +81,9 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
   background-color: #292929;
+  height: 202.78px;
 }
 
 footer div:first-child {
@@ -88,19 +91,24 @@ footer div:first-child {
 }
 
 footer div {
-  margin-bottom: 43.53px;
+  margin-bottom: 23.53px;
   padding: 0;
 }
 
+footer div:nth-child(2) a {
+  /* border: 2px solid red; */
+  margin-right: 25px;
+}
+
 footer img {
-  margin-right: 37.81px;
-  width: 37.31px;
+  margin-right: 17.81px;
+  width: 25.26px;
 }
 
 footer a {
   text-decoration: none;
   font-family: "Gotham-bold";
-  font-size: 25px;
+  font-size: 16px;
   color: #ffffff;
 }
 
@@ -111,7 +119,7 @@ footer a:hover {
 
 footer p {
   font-family: "Gill Sans";
-  font-size: 24px;
+  font-size: 16px;
   color: #f58400;
 }
 /* ---------------------------------------------- */
@@ -128,14 +136,14 @@ body {
   align-items: center;
   background-color: #333333;
   height: 55.45px;
-  padding-right: 140px;
+  padding-right: 96.94px;
 }
 
 .creator span {
   font-family: "Gotham-bold";
   font-size: 17px;
   color: #ffffff;
-  padding-right: 30px;
+  padding-right: 26.7px;
 }
 
 .creator a button {
@@ -158,18 +166,23 @@ body {
   flex-direction: row;
   justify-content: center;
   /* align-items: center; */
-  background-color: #171717;
+  background-color: #B62700;
 }
 
 .home-container div {
   width: 745px;
-  margin: 112.58px 42.51px 112.58px 99.24px;
+  margin: 109.75px 42.51px 112.58px 0px;
   /* justify-content: space-around; */
 }
 
+.home-container div:first-child {
+  margin-left: 99.24px;
+  margin-right: 44.64px;
+}
+
 .home-container iframe {
-  width: 530.16px;
-  height: 290.23px;
+  width: 610.16px;
+  height: 360.23px;
   box-shadow: #000000 0px 3px 6px;
 }
 
@@ -178,15 +191,16 @@ body {
   text-transform: uppercase;
   font-size: 37px;
   font-family: "Montserrat-bold";
-  margin-bottom: 26px;
+  margin-bottom: 17.59px;
   line-height: 45px;
+  width: 574px;
 }
 
 .home-container p {
   color: #ffffff;
   font-family: "Gill Sans";
   font-size: 20px;
-  margin-bottom: 27px;
+  margin-bottom: 17.08px;
   line-height: 30px;
   width: 633.07px;
   height: 93.71px;
@@ -231,13 +245,13 @@ body {
 /* BETA */
 .beta {
   position: relative;
-  background-color: #b62700;
+  background-color: #E5E5E5;
   height: 613px;
 }
 
 .beta h1 {
   text-transform: uppercase;
-  color: #ffffff;
+  color: #333333;
   font-family: "Montserrat-bold";
   font-size: 37px;
   top: 60px;
