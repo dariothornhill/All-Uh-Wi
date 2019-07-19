@@ -274,7 +274,7 @@ body {
   display: block;
   width: 995.31px;
 }
-/* ABOUT US -------------------------------------------- */
+/* ALT NAV -------------------------------------------- */
 
 #main-header-alt nav span {
   margin-top: 20px;
@@ -300,7 +300,7 @@ body {
   color: #ffffff;
 }
 
-/* About Paragraphs */
+/* ABOUT */
 #about {
   background-image: url(../img/Alluhwi-Website-Background-3-flipped.png);
   height: 1135px;
@@ -342,20 +342,28 @@ body {
   height: 896.73px;
 }
 
+#contact .text-container {
+  margin-left: 73px;
+}
+
 #contact h1 {
   font-family: "Gotham-bold";
   font-size: 67px;
   text-transform: uppercase;
   color: #f58400;
+  margin: 68px 0 18px 0;
 }
 
 #contact p {
   font-family: "Gill Sans";
   font-size: 25px;
   color: #ffffff;
+  line-height: 40px;
+  width: 557px;
+  height: 90px;
 }
 
-#contact .contact-wrapper {
+#contact .contact-form-wrapper {
   background-color: #383838;
   border-radius: 10px;
   box-shadow: #000000 0px 3px 6px;
@@ -363,6 +371,13 @@ body {
   height: 711px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact .form-container {
+  margin: 70.43px 0 0 124px;
+  height: 502.32px;
+  padding-right: 0px;
 }
 
 /* Form styles */
@@ -371,6 +386,7 @@ body {
   font-size: 19px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 13.74px;
 }
 
 #contact input {
@@ -379,12 +395,18 @@ body {
   background-color: #ffffff;
   box-shadow: #000000 0px 3px 6px;
   border-radius: 5px;
+  display: block;
+}
+
+#contact label:nth-of-type(2), label:nth-of-type(3), label:nth-of-type(4) {
+  margin-top: 28.69px;
 }
 
 input::placeholder, textarea::placeholder {
   font-family: "Gill Sans";
   color: #CCCCCC;
   font-size: 19px;
+  padding-left: 18.32px;
 }
 
 #contact textarea {
@@ -395,7 +417,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 5px;
 }
 
-#contact [type=submit] {
+#contact button {
   border: none;
   border-radius: 5px;
   background-color: #F58400;
@@ -406,7 +428,15 @@ input::placeholder, textarea::placeholder {
   font-size: 17px;
   color: #FFFFFF;
   text-transform: uppercase;
+  margin: 34.74px 86.68px 0 0;
 }
+
+#contact .form-container div:only-of-type {
+  border: 2px solid red;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /* PRIVACY---------------------------------------------- */
 
