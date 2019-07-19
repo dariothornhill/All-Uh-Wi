@@ -193,7 +193,8 @@ body {
   font-family: "Montserrat-bold";
   margin-bottom: 17.59px;
   line-height: 45px;
-  width: 574px;
+  /* width: 574px; */
+  height: 90px;
 }
 
 .home-container p {
