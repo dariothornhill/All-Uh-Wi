@@ -53,7 +53,6 @@
 #main-header-alt nav ul {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
 }
 
 #main-header nav ul li,
@@ -62,7 +61,6 @@
 }
 
 .logo {
-  /* width: 110.19px; */
   height: 111.06px;
 }
 
@@ -75,7 +73,33 @@
   font-size: 16px;
 }
 
-/* Footer----------------------------------------- */
+/* ALT NAV -------------------------------------------- */
+
+#main-header-alt nav span {
+  margin-top: 20px;
+  margin-left: 746.73px;
+}
+
+#main-header-alt nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
+}
+
+#main-header-alt nav a button {
+  background-color: #f58400;
+  box-shadow: #000000 0px 3px 6px;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  height: 66.73px;
+  font-family: "Gotham-bold";
+  font-size: 21px;
+  color: #ffffff;
+}
+
+/* FOOTER----------------------------------------- */
 
 footer {
   display: flex;
@@ -96,7 +120,6 @@ footer div {
 }
 
 footer div:nth-child(2) a {
-  /* border: 2px solid red; */
   margin-right: 25px;
 }
 
@@ -193,7 +216,8 @@ body {
   font-family: "Montserrat-bold";
   margin-bottom: 17.59px;
   line-height: 45px;
-  width: 574px;
+  /* width: 574px; */
+  height: 90px;
 }
 
 .home-container p {
@@ -273,33 +297,8 @@ body {
   display: block;
   width: 995.31px;
 }
-/* ABOUT US -------------------------------------------- */
 
-#main-header-alt nav span {
-  margin-top: 20px;
-  margin-left: 600px;
-}
-
-#main-header-alt nav {
-  display: flex;
-  justify-content: flex-start;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
-}
-
-#main-header-alt nav a button {
-  background-color: #f58400;
-  box-shadow: #000000 0px 3px 6px;
-  border: none;
-  border-radius: 5px;
-  width: 260px;
-  height: 66.73px;
-  font-family: "Gotham-bold";
-  font-size: 21px;
-  color: #ffffff;
-}
-
-/* About Paragraphs */
+/* ABOUT */
 #about {
   background-image: url(../img/Alluhwi-Website-Background-3-flipped.png);
   height: 1135px;
@@ -337,8 +336,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url();
   height: 896.73px;
+}
+
+#contact .text-container {
+  margin-left: 73px;
 }
 
 #contact h1 {
@@ -346,15 +348,19 @@ body {
   font-size: 67px;
   text-transform: uppercase;
   color: #f58400;
+  margin: 68px 0 18px 0;
 }
 
 #contact p {
   font-family: "Gill Sans";
   font-size: 25px;
   color: #ffffff;
+  line-height: 40px;
+  width: 557px;
+  height: 90px;
 }
 
-#contact .contact-wrapper {
+#contact .contact-form-wrapper {
   background-color: #383838;
   border-radius: 10px;
   box-shadow: #000000 0px 3px 6px;
@@ -362,6 +368,13 @@ body {
   height: 711px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact .form-container {
+  margin: 70.43px 0 0 124px;
+  height: 502.32px;
+  padding-right: 0px;
 }
 
 /* Form styles */
@@ -370,6 +383,7 @@ body {
   font-size: 19px;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 13.74px;
 }
 
 #contact input {
@@ -378,12 +392,18 @@ body {
   background-color: #ffffff;
   box-shadow: #000000 0px 3px 6px;
   border-radius: 5px;
+  display: block;
+}
+
+#contact label:nth-of-type(2), label:nth-of-type(3), label:nth-of-type(4) {
+  margin-top: 28.69px;
 }
 
 input::placeholder, textarea::placeholder {
   font-family: "Gill Sans";
   color: #CCCCCC;
   font-size: 19px;
+  padding-left: 18.32px;
 }
 
 #contact textarea {
@@ -394,7 +414,7 @@ input::placeholder, textarea::placeholder {
   border-radius: 5px;
 }
 
-#contact [type=submit] {
+#contact button {
   border: none;
   border-radius: 5px;
   background-color: #F58400;
@@ -405,7 +425,14 @@ input::placeholder, textarea::placeholder {
   font-size: 17px;
   color: #FFFFFF;
   text-transform: uppercase;
+  margin: 34.74px 86.68px 0 0;
 }
+
+#contact .form-container div:only-of-type {
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 /* PRIVACY---------------------------------------------- */
 
@@ -421,7 +448,7 @@ input::placeholder, textarea::placeholder {
   flex-direction: column;
   /* justify-content: space-between; */
   margin-left: 140px;
-  margin-top: 126.73px;
+  margin-top: 103px;
 }
 
 #privacy h1, #terms h1 {
