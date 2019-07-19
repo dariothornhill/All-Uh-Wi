@@ -42,6 +42,8 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 /* NAV BAR-----------------------------------------*/
 
 #main-header nav {
@@ -188,14 +190,12 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* align-items: center; */
   background-color: #B62700;
 }
 
 .home-container div {
   width: 745px;
   margin: 109.75px 42.51px 112.58px 0px;
-  /* justify-content: space-around; */
 }
 
 .home-container div:first-child {
@@ -506,4 +506,41 @@ input::placeholder, textarea::placeholder {
 
 #terms p:last-of-type {
   margin-top: 30px;
+}
+
+/* CREATOR LANDING -----------------------------------------------------------*/
+
+#landing {
+  background-color: #F5F5F5;
+}
+
+#landing div:nth-child(1) {
+  /* border: 2px solid orange; */
+  width: 744.78px;
+  height: 450.44px;
+  background-color: #383838;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
+}
+
+#landing div:nth-of-type(2) {
+  /* border: 2px solid red; */
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
+  background-color: #FFFFFF;
+  width: 383.33px;
+  height: 450.44px;
+}
+
+#landing h1 {
+  font-family: "Gotham-bold";
+  font-size: 27px;
+  color: #F58400;
+  text-transform: uppercase;
+  line-height: 30px;
+}
+
+#landing p {
+  font-family: "Gill Sans";
+  font-size: 21px;
+  line-height: 32px;
+  color: #FFFFFF;
 }
