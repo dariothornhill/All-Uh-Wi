@@ -42,7 +42,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 /* NAV BAR-----------------------------------------*/
 
@@ -51,6 +51,7 @@
   height: 111.61px;
   display: flex;
 }
+
 #main-header nav ul,
 #main-header-alt nav ul {
   display: flex;
@@ -79,14 +80,14 @@
 
 #main-header-alt nav span {
   margin-top: 20px;
-  margin-left: 746.73px;
+  margin-left: 856.73px;
 }
 
 #main-header-alt nav {
   display: flex;
   justify-content: flex-start;
   background-color: #ffffff;
-  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
 }
 
 #main-header-alt nav a button {
@@ -184,13 +185,16 @@ body {
   text-transform: uppercase;
 }
 
+button:hover {
+  cursor: pointer;
+}
 /* Alluhwi */
 
 .home-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-color: #B62700;
+  background-color: #b62700;
 }
 
 .home-container div {
@@ -210,7 +214,7 @@ body {
 }
 
 .home-container h1 {
-  color: #F7F7F7;
+  color: #f7f7f7;
   text-transform: uppercase;
   font-size: 37px;
   font-family: "Montserrat-bold";
@@ -257,7 +261,7 @@ body {
   font-size: 19px;
   /* width: 577px; */
   height: 25px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
 }
 
@@ -269,7 +273,7 @@ body {
 /* BETA */
 .beta {
   position: relative;
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   height: 613px;
 }
 
@@ -395,13 +399,16 @@ body {
   display: block;
 }
 
-#contact label:nth-of-type(2), label:nth-of-type(3), label:nth-of-type(4) {
+#contact label:nth-of-type(2),
+label:nth-of-type(3),
+label:nth-of-type(4) {
   margin-top: 28.69px;
 }
 
-input::placeholder, textarea::placeholder {
+input::placeholder,
+textarea::placeholder {
   font-family: "Gill Sans";
-  color: #CCCCCC;
+  color: #cccccc;
   font-size: 19px;
   padding-left: 18.32px;
 }
@@ -417,13 +424,13 @@ input::placeholder, textarea::placeholder {
 #contact button {
   border: none;
   border-radius: 5px;
-  background-color: #F58400;
+  background-color: #f58400;
   box-shadow: #000000 0px 3px 6px;
   width: 180.99px;
   height: 41.92px;
   font-family: "Gotham-bold";
   font-size: 17px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: uppercase;
   margin: 34.74px 86.68px 0 0;
 }
@@ -432,7 +439,6 @@ input::placeholder, textarea::placeholder {
   display: flex;
   justify-content: flex-end;
 }
-
 
 /* PRIVACY---------------------------------------------- */
 
@@ -451,7 +457,8 @@ input::placeholder, textarea::placeholder {
   margin-top: 103px;
 }
 
-#privacy h1, #terms h1 {
+#privacy h1,
+#terms h1 {
   font-family: "Gotham-bold";
   font-size: 57px;
   text-transform: uppercase;
@@ -459,14 +466,17 @@ input::placeholder, textarea::placeholder {
   margin: 0px 0 50px 0;
 }
 
-#privacy h3, #terms h3, #terms span {
+#privacy h3,
+#terms h3,
+#terms span {
   font-family: "Gotham-bold";
   color: #383838;
   font-size: 27px;
   margin: 10px 0 30px 0;
 }
 
-#privacy p, #terms p {
+#privacy p,
+#terms p {
   font-size: 18px;
   font-family: "Gill Sans";
   color: #383838;
@@ -474,7 +484,9 @@ input::placeholder, textarea::placeholder {
   line-height: 25px;
 }
 
-#privacy p:nth-child(8), #privacy p:nth-child(9), #privacy p:nth-child(17) {
+#privacy p:nth-child(8),
+#privacy p:nth-child(9),
+#privacy p:nth-child(17) {
   margin-bottom: 0px;
 }
 
@@ -493,7 +505,7 @@ input::placeholder, textarea::placeholder {
 /* TERMS ----------------------------------------------------------- */
 
 #terms {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   height: 1421px;
   margin-left: 140px;
   margin-top: 113.76px;
@@ -511,21 +523,23 @@ input::placeholder, textarea::placeholder {
 /* CREATOR LANDING -----------------------------------------------------------*/
 
 #landing {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+  height: 933.73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #landing div:nth-child(1) {
-  /* border: 2px solid orange; */
   width: 744.78px;
   height: 450.44px;
   background-color: #383838;
-  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
 }
 
 #landing div:nth-of-type(2) {
-  /* border: 2px solid red; */
-  box-shadow: 0px 4px 6px 0px rgba(0,0,0,0.42);
-  background-color: #FFFFFF;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
+  background-color: #ffffff;
   width: 383.33px;
   height: 450.44px;
 }
@@ -533,14 +547,24 @@ input::placeholder, textarea::placeholder {
 #landing h1 {
   font-family: "Gotham-bold";
   font-size: 27px;
-  color: #F58400;
+  color: #f58400;
   text-transform: uppercase;
   line-height: 30px;
+  width: 507px;
+  height: 60px;
+  margin: 39.28px 0 24px 49.36px;
 }
 
 #landing p {
   font-family: "Gill Sans";
   font-size: 21px;
   line-height: 32px;
-  color: #FFFFFF;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#landing div:nth-child(1) div:only-of-type {
+  width: 658px;
+  height: 293px;
+  margin-left: 49.36px;
 }
