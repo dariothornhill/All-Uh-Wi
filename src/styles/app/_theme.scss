@@ -1,0 +1,570 @@
+/* Fonts */
+@font-face {
+  font-family: 'Gill Sans';
+  src: url('../fonts/Gill\ Sans.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url('../fonts/GothamBold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GothamBook.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GillSans-bold';
+  src: url('../fonts/Gill\ Sans\ Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  /* Substitute for Gill-sans semi-bold */
+  font-family: 'Lato-bold';
+  src: url('../fonts/Lato-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* NAV BAR-----------------------------------------*/
+
+#main-header nav {
+  background-color: #f7f7f7;
+  height: 111.61px;
+  display: flex;
+}
+
+#main-header nav ul,
+#main-header-alt nav ul {
+  display: flex;
+  align-items: center;
+}
+
+#main-header nav ul li,
+#main-header-alt nav ul li {
+  margin-left: 4rem;
+}
+
+.logo {
+  height: 111.06px;
+}
+
+#main-header nav a,
+#main-header-alt nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Gotham-bold';
+  color: #383838;
+  font-size: 16px;
+}
+
+/* ALT NAV -------------------------------------------- */
+
+#main-header-alt nav span {
+  margin-top: 20px;
+  margin-left: 856.73px;
+}
+
+#main-header-alt nav {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
+}
+
+#main-header-alt nav a button {
+  background-color: #f58400;
+  box-shadow: #000000 0px 3px 6px;
+  border: none;
+  border-radius: 5px;
+  width: 260px;
+  height: 66.73px;
+  font-family: 'Gotham-bold';
+  font-size: 21px;
+  color: #ffffff;
+}
+
+/* FOOTER----------------------------------------- */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #292929;
+  height: 202.78px;
+}
+
+footer div:first-child {
+  margin-top: 43.53px;
+}
+
+footer div {
+  margin-bottom: 23.53px;
+  padding: 0;
+}
+
+footer div:nth-child(2) a {
+  margin-right: 25px;
+}
+
+footer img {
+  margin-right: 17.81px;
+  width: 25.26px;
+}
+
+footer a {
+  text-decoration: none;
+  font-family: 'Gotham-bold';
+  font-size: 16px;
+  color: #ffffff;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer p {
+  font-family: 'Gill Sans';
+  font-size: 16px;
+  color: #f58400;
+}
+/* ---------------------------------------------- */
+/* Index Styling */
+
+body {
+  font-size: 25px;
+}
+
+/* Log In/Out Styles */
+.creator {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #333333;
+  height: 55.45px;
+  padding-right: 96.94px;
+}
+
+.creator span {
+  font-family: 'Gotham-bold';
+  font-size: 17px;
+  color: #ffffff;
+  padding-right: 26.7px;
+}
+
+.creator a button {
+  background-color: #f58400;
+  border: none;
+  border-radius: 5px;
+  width: 120.14px;
+  height: 35.89px;
+  box-shadow: #000000 0px 3px 6px;
+  color: #ffffff;
+  font-family: 'Gotham-bold';
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+button:hover {
+  cursor: pointer;
+}
+/* Alluhwi */
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #b62700;
+}
+
+.home-container div {
+  width: 745px;
+  margin: 109.75px 42.51px 112.58px 0px;
+}
+
+.home-container div:first-child {
+  margin-left: 99.24px;
+  margin-right: 44.64px;
+}
+
+.home-container iframe {
+  width: 610.16px;
+  height: 360.23px;
+  box-shadow: #000000 0px 3px 6px;
+}
+
+.home-container h1 {
+  color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 37px;
+  font-family: 'Montserrat-bold';
+  margin-bottom: 17.59px;
+  line-height: 45px;
+  /* width: 574px; */
+  height: 90px;
+}
+
+.home-container p {
+  color: #ffffff;
+  font-family: 'Gill Sans';
+  font-size: 20px;
+  margin-bottom: 17.08px;
+  line-height: 30px;
+  width: 633.07px;
+  height: 93.71px;
+}
+
+.home-container a button {
+  width: 235px;
+  height: 60.79px;
+  background-color: #383838;
+  border-radius: 5px;
+  border: none;
+  box-shadow: #000000 0px 3px 6px;
+  font-family: 'Gotham-bold';
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/* DOWNLOAD */
+
+.download {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88.89px;
+}
+
+.download span {
+  font-family: 'GillSans-bold';
+  font-size: 19px;
+  /* width: 577px; */
+  height: 25px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.download img {
+  margin-left: 20px;
+  width: 180.57px;
+}
+
+/* BETA */
+.beta {
+  position: relative;
+  background-color: #e5e5e5;
+  height: 613px;
+}
+
+.beta h1 {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: 'Montserrat-bold';
+  font-size: 37px;
+  top: 60px;
+  left: 110px;
+  position: absolute;
+}
+
+.beta img.google-play {
+  top: 120px;
+  left: 310px;
+  position: absolute;
+  width: 263.72px;
+}
+
+.beta img.smart-app {
+  top: -70px;
+  right: 30px;
+  position: absolute;
+  display: block;
+  width: 995.31px;
+}
+
+/* ABOUT */
+#about {
+  background-image: url(../images/Alluhwi-Website-Background-3-flipped.png);
+  height: 1135px;
+  background-repeat: no-repeat;
+  background-size: 2016px 1137px;
+  background-position: center;
+}
+
+#about div h1 {
+  text-transform: uppercase;
+  color: #fc941a;
+  font-size: 57px;
+  font-family: 'Gotham-bold';
+  padding: 40px 0 40px 0;
+}
+
+#about p {
+  font-family: 'Gill Sans';
+  font-size: 26px;
+  color: #ffffff;
+  line-height: 38px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+#about div {
+  margin: 0px 815px 0 140px;
+  width: 965px;
+  height: 826px;
+}
+
+/* CONTACT PAGE -----------------------------------------*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 896.73px;
+}
+
+#contact .text-container {
+  margin-left: 73px;
+}
+
+#contact h1 {
+  font-family: 'Gotham-bold';
+  font-size: 67px;
+  text-transform: uppercase;
+  color: #f58400;
+  margin: 68px 0 18px 0;
+}
+
+#contact p {
+  font-family: 'Gill Sans';
+  font-size: 25px;
+  color: #ffffff;
+  line-height: 40px;
+  width: 557px;
+  height: 90px;
+}
+
+#contact .contact-form-wrapper {
+  background-color: #383838;
+  border-radius: 10px;
+  box-shadow: #000000 0px 3px 6px;
+  width: 1325px;
+  height: 711px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contact .form-container {
+  margin: 70.43px 0 0 124px;
+  height: 502.32px;
+  padding-right: 0px;
+}
+
+/* Form styles */
+#contact label {
+  font-family: 'Gotham-bold';
+  font-size: 19px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 13.74px;
+}
+
+#contact input {
+  width: 483.88px;
+  height: 40.57px;
+  background-color: #ffffff;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
+  display: block;
+}
+
+#contact label:nth-of-type(2),
+label:nth-of-type(3),
+label:nth-of-type(4) {
+  margin-top: 28.69px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-family: 'Gill Sans';
+  color: #cccccc;
+  font-size: 19px;
+  padding-left: 18.32px;
+}
+
+#contact textarea {
+  width: 483.88px;
+  height: 155.58px;
+  background-color: #ffffff;
+  box-shadow: #000000 0px 3px 6px;
+  border-radius: 5px;
+}
+
+#contact button {
+  border: none;
+  border-radius: 5px;
+  background-color: #f58400;
+  box-shadow: #000000 0px 3px 6px;
+  width: 180.99px;
+  height: 41.92px;
+  font-family: 'Gotham-bold';
+  font-size: 17px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin: 34.74px 86.68px 0 0;
+}
+
+#contact .form-container div:only-of-type {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* PRIVACY---------------------------------------------- */
+
+#privacy {
+  background-color: #ffffff;
+  /* height: 2825.83px; */
+}
+
+#privacy div {
+  width: 1107px;
+  height: 2455px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  margin-left: 140px;
+  margin-top: 103px;
+}
+
+#privacy h1,
+#terms h1 {
+  font-family: 'Gotham-bold';
+  font-size: 57px;
+  text-transform: uppercase;
+  color: #383838;
+  margin: 0px 0 50px 0;
+}
+
+#privacy h3,
+#terms h3,
+#terms span {
+  font-family: 'Gotham-bold';
+  color: #383838;
+  font-size: 27px;
+  margin: 10px 0 30px 0;
+}
+
+#privacy p,
+#terms p {
+  font-size: 18px;
+  font-family: 'Gill Sans';
+  color: #383838;
+  margin-bottom: 35px;
+  line-height: 25px;
+}
+
+#privacy p:nth-child(8),
+#privacy p:nth-child(9),
+#privacy p:nth-child(17) {
+  margin-bottom: 0px;
+}
+
+#privacy ul li a,
+#privacy ul li {
+  font-family: 'Gill Sans';
+  color: #383838;
+  font-size: 18px;
+  text-indent: 30px;
+}
+
+#privacy ul li:last-of-type {
+  margin-bottom: 40px;
+}
+
+/* TERMS ----------------------------------------------------------- */
+
+#terms {
+  background-color: #ffffff;
+  height: 1421px;
+  margin-left: 140px;
+  margin-top: 113.76px;
+}
+
+#terms div {
+  width: 1107px;
+  height: 1256px;
+}
+
+#terms p:last-of-type {
+  margin-top: 30px;
+}
+
+/* CREATOR LANDING -----------------------------------------------------------*/
+
+#landing {
+  background-color: #f5f5f5;
+  height: 933.73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing div:nth-child(1) {
+  width: 744.78px;
+  height: 450.44px;
+  background-color: #383838;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
+}
+
+#landing div:nth-of-type(2) {
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.42);
+  background-color: #ffffff;
+  width: 383.33px;
+  height: 450.44px;
+}
+
+#landing h1 {
+  font-family: 'Gotham-bold';
+  font-size: 27px;
+  color: #f58400;
+  text-transform: uppercase;
+  line-height: 30px;
+  width: 507px;
+  height: 60px;
+  margin: 39.28px 0 24px 49.36px;
+}
+
+#landing p {
+  font-family: 'Gill Sans';
+  font-size: 21px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+#landing div:nth-child(1) div:only-of-type {
+  width: 658px;
+  height: 293px;
+  margin-left: 49.36px;
+}
